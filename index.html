@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+
+    <body>
+        <h1 id="title">Student Survey Form</h1>
+        <p id="description" style="color: rgb(15, 0, 83);
+         font-family: cursive;
+         background: transparent;
+         outline: 0px;
+         font-weight: bolder;
+         font-size: 17px;">
+         Thanks for participating in our survey
+         </p>
+
+        <form action="#" id="survey-form">
+            <label id="name-label" class="label" for="name">Name:<br><input type="text" id="name" required placeholder="Enter your Name"></label><br>
+            <label id="email-label" class="label" for="email">Email:<br><input type="email" id="email" required placeholder="Enter your Email"></label><br>
+            <label id="number-label" class="label" for="number">Age:<br><input type="number" id="number" min="13" max="100" placeholder="Enter your Age (Optional)"></label><br>
+
+            <label for="dropdown" class="label">Subject:<br>
+                <select id="dropdown" placeholder="head">
+                    <option disabled selected value>Select your Favorite Subject</option>
+                    <option>Mathematics</option>
+                    <option>Science</option>
+                    <option>Computer Science</option>
+                    <option>Social Studies</option>
+                    <option>Language</option>
+                    <option>Physical Education</option>
+                    <option>Hell Nothing!</option>
+                </select><br>
+            </label>
+
+            <label for="checkbox" id="checkbox" class="label">How woud you describe yourself:<br>
+                <ul>
+                    <li><input type="checkbox" id="1" value="1" name="checkbox">Absolute Geek<br></li>
+                    <li><input type="checkbox" id="2" value="2" name="checkbox">Nerd<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Selfless<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Outta Sanity<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Insane<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Weeb of the Weebs<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Normal<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Daring<br></li>
+                    <li><input type="checkbox" id="3" value="3" name="checkbox">Kind<br></li>
+                </ul>
+            </label>
+        </form>
+    </body>
+</html>
